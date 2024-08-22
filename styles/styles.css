@@ -61,7 +61,6 @@
     font-size: 1.6em;
     font-weight: bold;
     color: #FFFFFF;
-    /* White text color */
     padding: 5px 10px;
     letter-spacing: 2px;
     display: inline-block;
@@ -89,7 +88,6 @@
     font-size: 30px;
     color: #FFFFFF;
     font-family: Death-note; /* Use the appropriate font */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     width: 80%;
 }
 
@@ -123,10 +121,7 @@
 
 .background {
     background-image: url('../assets/images/bg.jpg');
-    opacity: 0.8;
-        /* or a local image file */
     background-size: cover;
-
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,5 +143,5 @@
     transform: translate(-50%, -50%);
     font-size: 24px;
     font-family: Death-note; /* Use the appropriate font */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Slight shadow for effect */
+
 }
