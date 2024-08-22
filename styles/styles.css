@@ -87,6 +87,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+    color: #FFFFFF;
     font-family: Death-note; /* Use the appropriate font */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     width: 80%;
