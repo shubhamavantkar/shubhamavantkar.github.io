@@ -9,21 +9,21 @@
 @font-face {
     font-family: 'Death-note';
     /* Replace with your desired font name */
-    src: url('../../Fonts/Death-Note.ttf');
+    src: url('../assets/Fonts/Death-Note.ttf');
     /* URL to your font file */
 }
 
 @font-face {
     font-family: 'Death-font';
     /* Replace with your desired font name */
-    src: url('../../Fonts/death-font.ttf');
+    src: url('../assets/Fonts/death-font.ttf');
     /* URL to your font file */
 }
 
 @font-face {
     font-family: 'cloisterblack';
     /* Replace with your desired font name */
-    src: url('../../Fonts/CloisterBlack.ttf');
+    src: url('../assets/Fonts/CloisterBlack.ttf');
     /* URL to your font file */
 }
 
