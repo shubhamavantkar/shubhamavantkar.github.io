@@ -117,7 +117,12 @@
     .navbar-links.active {
         display: flex;
     }
+
+    .typewriter {
+        font-size: 20px;
+    }
 }
+
 
 
 .background {
