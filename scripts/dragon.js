@@ -15,5 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    
     fly(); // Start the animation
 });
