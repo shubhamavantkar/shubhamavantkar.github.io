@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Avantkar</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script>
+        function isMobile() {
+            return /Mobi|Android/i.test(navigator.userAgent);
+        }
+
+        if (isMobile()) {
+            window.location.href = "mobile-unavailable.html"; // Replace with your URL
+        }
+    </script>
 </head>
 
 <body>

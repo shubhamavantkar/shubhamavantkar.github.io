@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        /* Hide the mobile message by default */
+        .mobile-message {
+            display: none;
+            text-align: center;
+            margin-top: 20%;
+            font-size: 1.5em;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Display the mobile message on screens 768px wide or less */
+        @media only screen and (max-width: 768px) {
+            .desktop-content {
+                display: none;
+            }
+
+            .mobile-message {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="desktop-content">
+        <!-- Your desktop content goes here -->
+        <h1>Welcome to the Desktop Version of the Site</h1>
+    </div>
+
+    <div class="mobile-message">
+        <p>Thank you for visiting us. This website is not available on mobile devices.</p>
+    </div>
+</body>
+</html>
